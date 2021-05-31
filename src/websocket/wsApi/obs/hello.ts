@@ -7,7 +7,8 @@ export class hello extends WSRequestType{
         let d = DataHolder.getData(data.target);
         ws.dataSend({
             type: "hello",
-            data: d
+            data: d,
+            target: data.target
         });
     }
 };
