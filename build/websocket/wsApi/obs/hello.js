@@ -7,7 +7,8 @@ class hello extends wsReqType_1.WSRequestType {
         let d = DataHolder_1.DataHolder.getData(data.target);
         ws.dataSend({
             type: "hello",
-            data: d
+            data: d,
+            target: data.target
         });
     }
 }
