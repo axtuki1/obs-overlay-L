@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/express": "^4.17.3",
+    "@types/express": "^4.17.12",
     "@types/jquery": "^3.3.34",
-    "@types/node": "^13.9.5",
+    "@types/node": "^13.13.52",
     "body-parser": "^1.19.0",
     "config": "^3.3.1",
     "express": "^4.17.1",
@@ -22,7 +22,7 @@
     "jQuery": "^1.7.4",
     "node-fetch": "^2.6.0",
     "rndstr": "^1.0.0",
-    "ws": "^7.2.3"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.2",
