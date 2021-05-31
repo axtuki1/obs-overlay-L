@@ -22,7 +22,6 @@ $(function () {
                 }
                 else if (data.type == "hello") {
                     data.data.forEach(element => {
-                        console.log(element);
                         $(".list ." + data.target).append($("<div></div>").html(element));
                     });
                 }
